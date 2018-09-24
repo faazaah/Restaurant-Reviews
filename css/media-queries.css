@@ -1,0 +1,152 @@
+/*Media Queries for different screen sizes*/
+
+/*Media Queries for mobile phones*/
+@media only screen and (max-width: 480px) {
+	body,
+	.inside body {
+		margin: 0;
+		overflow-x: hidden;
+	}
+	nav h1 {
+		padding-top: 10px;
+	}
+	nav h1 a {
+		font-size: 0.7em;
+		padding: 0 0 10px 0;
+	}
+	#breadcrumb li {
+		font-size: 1em;
+	}
+	.filter-options {
+		display: block;
+		height: auto;
+	}
+	.filter-options select {
+		width: 80%;
+	}
+	.filter-options h2,
+	.filter-options select,
+	#restaurants-list p,
+	#restaurants-list li a {
+		font-size: 4vw;
+	}
+	#restaurants-list li h1 {
+		font-size: 5vw;
+	}
+	#restaurants-list {
+		display: block;
+		justify-content: center;
+		height: auto;
+	}
+	#restaurants-list li {
+		min-width: 80vw;
+	}
+	#footer {
+		font-size: 0.5rem;
+	}
+	#restaurant-address,
+	#restaurant-hours td {
+		font-size: 1.2em;
+	}
+	table#restaurant-hours {
+		width: 100%;
+		margin-left: 5%;
+	}
+	#reviews-container {
+		left: 2%;
+	}
+	#reviews-list,
+	#reviews-list li {
+		width: 100%;
+	}
+	#reviews-list li p {
+		font-size: 0.9rem;
+	}
+	.top-row {
+		padding: 2px 2px;
+	}
+	.review-rating {
+		padding: 2px 2px;
+		float: none;
+	}
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.filter-options {
+		display: block;
+		height: auto;
+	}
+	.filter-options h2,
+	.filter-options select {
+		font-size: 2.2vw;
+	}
+	#restaurants-list {
+		justify-content: flex-start;
+		align-content: center;
+	}
+	#restaurants-list li {
+		min-height: 10vh;
+		min-width:  45%;
+		flex-basis: auto;
+		align-self: flex-start;
+		margin: auto;
+	}
+	#restaurants-list .restaurant-img {
+		min-height: 100px;
+	}
+	#restaurants-list li h1 {
+		font-size: 2.4vw;
+	}
+	#restaurants-list p,
+	#restaurants-list li a {
+		font-size: 1.8vw;
+		padding-bottom: 5px;
+	}
+	#reviews-list li{
+		width: 100%;
+	}
+	table#restaurant-hours {
+	  width: 100%;
+	  margin-left: 10%;
+	}
+}
+
+
+/*Media Query for Tablets and Laptops*/
+@media only screen and (min-width: 768px) and (max-width: 930px) {
+	nav h1 a {
+		font-size: 2.5vw;
+	}
+	.filter-options select {
+		width: 45%;
+	}
+	.filter-options h2,
+	.filter-options select {
+		font-size: 2.5vw;
+	}
+	#restaurants-list li {
+		min-width: 45%;
+	}
+	#restaurants-list .restaurant-img {
+		min-height: 150px;
+	}
+	#reviews-list li{
+		width: 100%;
+	}
+}
+
+
+/*Media Queries for larger screens*/
+@media only screen and (min-width: 931px) {
+	#restaurants-list li {
+		min-width:  30%;
+	}
+}
+
+
+@media only screen and (min-width: 1230px) {
+	#restaurants-list li {
+		min-width:  22%;
+	}
+}
