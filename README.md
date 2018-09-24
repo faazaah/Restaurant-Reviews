@@ -1,5 +1,8 @@
-﻿ # Project 5 : Restaurant Reviews App Stage 1
+﻿ # Udacity Project 5 : Restaurant Reviews App Stage 1
 
+ #### About 
+
+ * This project was made as part of Udacity Front End Developer Nanodegree
  * Converted a static web page (provided by Udacity) into a mobile-ready web application. 
  * The design is responsive and displays well on different sized displays (tested on Google Chrome Dev Tools) and accessible for screen reader use. 
  * Converted the design to a progressive web application using Cache API and Service Worker.
