@@ -17,7 +17,7 @@
 
  ##### Resources
  
- * https://developer.mozilla.org/en-US/docs/Web/CSS
- * https://www.w3schools.com/css
- * https://www.w3.org/WAI/tutorials/
+ * [MDN Web Docs](https://developer.mozilla.org/en-US/)
+ * [W3schools Online Web tutorials](https://www.w3schools.com/)
+ * [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
  
